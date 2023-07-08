@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  padding: 20px;
+}
+
+.header .grid-size-btn, .grid-clear-btn {
+  padding: 15px;
+  font-size: 20px;
+  margin: auto 20px;
+}
+
+.container {
+  height: 960px;
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .row-container{
+  display: flex;
+  flex :1;
+}
+
+.container .row-container .square {
+  flex: 1;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.change-color {
+  background-color: black;
+}
