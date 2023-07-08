@@ -45,7 +45,7 @@ function activateSquares(){
                 square.classList.add('passed');
                 square.style.background = randomRGBAColor();
             }else{
-                square.style.background = increaseTone(square);
+                square.style.background = increaseAlpha(square);
             }       
         })
     })
